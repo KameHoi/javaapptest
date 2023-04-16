@@ -15,5 +15,5 @@ docker push kamehoi/javaapptest:1
 git add .
 git commit -m "Init workflow "
 git push
-git tag -a 0.0.14 -m "Init workflow 0.0.14"
+git tag -a 0.0.15 -m "Init workflow 0.0.15"
 git push --tags
