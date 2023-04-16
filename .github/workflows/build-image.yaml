@@ -1,12 +1,12 @@
 name: Build & Deploy Spring App
 
 on:
-  push:
-    branches:
-      - main
   create:
     tags:
       - '*.*.*'
+  push:
+    branches:
+      - main
 
 jobs:
   build_and_test:
